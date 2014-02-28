@@ -82,12 +82,6 @@
 					color = 0xffffff;
 				}
 				
-				/*
-                color = 0x000000;
-                var greyScale : uint = Math.min((theStar.distance * 0.612), 255);
-                color = (greyScale << 16) | (greyScale << 8) | greyScale;
-				*/
-				
 				_stars.setPixel(theStar.x, theStar.y, color);
 			}
 		}
