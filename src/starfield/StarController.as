@@ -36,6 +36,9 @@
 			var theStar:Star;
 			var color:uint;
 			
+			if (_activeStars.length == 0)
+				return;
+			
 			// loop through our stars and move them and draw them
 			for (var i:int = _activeStars.length-1; i != 0; i--)
 			{
